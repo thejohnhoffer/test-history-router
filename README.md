@@ -39,7 +39,7 @@ The `HistoryRouter` allows the use of a custom `HashHistory` to store paths in t
 
 # ...Why?
 
-This template uses a temporary package called [`history-noslash`](https://github.com/thejohnhoffer/history/tree/publish-noslash#readme) as a replacement for `history` in `react-router-dom@6.1.1`. which exposes [an unstable version](https://github.com/remix-run/react-router/releases/tag/v6.1.1) of a `HistoryRouter` API.
+This template uses a temporary package called [`history-noslash`](https://github.com/thejohnhoffer/history/tree/publish-noslash#readme) as a replacement for `history` in `react-router-dom@6.1.1`. This can be done thanks to [an unstable version](https://github.com/remix-run/react-router/releases/tag/v6.1.1) of a `HistoryRouter` API.
 
 This replaces a feature that `react-router-dom@6` lost in the upgrade from `history@4` to `history@5`. Basically, this restores the ability to have a `window.location.hash` of `#something` instead of `#/something`. First, @tannera [noticed the issue](https://github.com/remix-run/react-router/issues/7703) in Nov 2021. I [described it further](https://github.com/remix-run/react-router/issues/7703), and made three attempts to solve it: [1][1], [2][2], [3][3].
 

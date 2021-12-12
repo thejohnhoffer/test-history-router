@@ -37,7 +37,7 @@ const App = () => {
 
 The `HistoryRouter` allows the use of a custom `HashHistory` to store paths in the url after `#` instead of `#/`.
 
-## ...Why?
+# ...Why?
 
 This template uses a temporary package called [`history-noslash`](https://github.com/thejohnhoffer/history/tree/publish-noslash#readme) as a replacement for `history` in `react-router-dom@6.1.1`. which exposes [an unstable version](https://github.com/remix-run/react-router/releases/tag/v6.1.1) of a `HistoryRouter` API.
 

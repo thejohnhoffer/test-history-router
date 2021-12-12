@@ -43,6 +43,8 @@ This template uses a temporary package called [`history-noslash`](https://github
 
 This replaces a feature that `react-router-dom@6` lost in the upgrade from `history@4` to `history@5`. Basically, this restores the ability to have a `window.location.hash` of `#something` instead of `#/something`. First, @tannera [noticed the issue](https://github.com/remix-run/react-router/issues/7703) in Nov 2021. I [described it further](https://github.com/remix-run/react-router/issues/7703), and made three attempts to solve it: [1][1], [2][2], [3][3].
 
+...for [more details](https://github.com/thejohnhoffer/test-history-router/blob/main/WHY.md).
+
 ## Contributing
 
 The custom `history-noslash` code lives on [a branch of a fork](https://github.com/thejohnhoffer/history/tree/publish-noslash) of `history@5.1.0`. That fork is the packaged version of [History PR # 911](https://github.com/remix-run/history/pull/911).

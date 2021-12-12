@@ -1,0 +1,29 @@
+{
+  "description": "Test history router",
+  "name": "test-history-router",
+  "version": "1.0.0",
+  "type": "module",
+  "source": "src/index.html",
+  "scripts": {
+    "rm": "rm -rf build",
+    "build": "yarn rm && parcel build",
+    "start": "rm -rf .parcel-cache && cross-env NODE_ENV=development parcel"
+  },
+  "dependencies": {
+    "history-noslash": "latest",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-router-dom": "6.1.1"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "packageManager": "yarn@3.1.1",
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "parcel": "^2.0.1"
+  }
+}

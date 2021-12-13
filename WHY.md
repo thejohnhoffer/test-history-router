@@ -1,6 +1,6 @@
 This replaces a feature that `react-router-dom@6` lost in the upgrade from `history@4` to `history@5`. 
 
-Basically, this restores the ability to have a `window.location.hash` of `#something` instead of `#/something`. First, @tannera [noticed the issue](https://github.com/remix-run/react-router/issues/7703) in Nov 2021, but a core mainatiner [suggested](https://github.com/remix-run/react-router/issues/7703#issuecomment-735033961) the issue be instead raised with `history`. I [submitted a PR][1] anyway, but the maintainer believed the solution already existed with a `basename=""` parameter. 
+Basically, this restores the ability to have a `window.location.hash` of `#something` instead of `#/something`.
 
 @jtojnar [showed](https://github.com/remix-run/react-router/pull/8450#issuecomment-989594832) that `basename=""` doesn't replicate the old `hashType="noslash"` feature. I asked for the maintainer's suggestion of `basename=""` [as a new feature](https://github.com/remix-run/react-router/issues/8459), and I [implemented it][2]. This was [closed](https://github.com/remix-run/react-router/pull/8460#issuecomment-990415343), so I tried a different implementation.
 

@@ -9,7 +9,7 @@ My third attempt involved two repositories, `history` and `react-router`. I addi
 
 Until `react-router-dom@6.1`, [PR #911](https://github.com/remix-run/history/pull/911) to `history` would also require changes to `react-router-dom`. But with `react-router-dom@6.1`, the maintainers released a `HistoryRouter` class. When the primary maintainer [expresssed reservations](https://github.com/remix-run/react-router/pull/7586#issuecomment-991703987), the `6.1.1` release reclassified `HistoryRouter` as `unstable_HistoryRouter`. 
 
-Now, this template is able to replcate the lost `hahsType="noslash"` [documented](https://v5.reactrouter.com/web/api/HashRouter/hashtype-string) of `react-router@5` in `react-router@6` with some wonky  imports:
+Now, this template is able to replcate the lost `hashType="noslash"` [documented](https://v5.reactrouter.com/web/api/HashRouter/hashtype-string) of `react-router@5` in `react-router@6` with some wonky  imports:
 
 ```jsx
 import { createHashHistory } from "history-noslash"; // Use of this package

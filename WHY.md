@@ -18,7 +18,7 @@ import { unstable_HistoryRouter as HistoryRouter } from "react-router-dom";
 
 Now, if the maintainers merge [PR #911](https://github.com/remix-run/history/pull/911) of `history` and the eventual `HistorRouter` api matches the current `unstable_HistorRouter` api, this would eventually be possible with the normal imports:
 
-```
+```jsx
 import { createHashHistory } from "history";
 import { HistoryRouter } from "react-router-dom";
 ```

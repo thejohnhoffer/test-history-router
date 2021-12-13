@@ -10,7 +10,7 @@
     "start": "rm -rf .parcel-cache && cross-env NODE_ENV=development parcel"
   },
   "dependencies": {
-    "history-noslash": "latest",
+    "history-noslash": "5.2.0-noslash.2.2",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-router-dom": "6.1.1"

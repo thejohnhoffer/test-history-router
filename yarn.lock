@@ -3195,12 +3195,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"history-noslash@npm:latest":
-  version: 5.2.0-noslash.2.0
-  resolution: "history-noslash@npm:5.2.0-noslash.2.0"
+"history-noslash@npm:5.2.0-noslash.2.2":
+  version: 5.2.0-noslash.2.2
+  resolution: "history-noslash@npm:5.2.0-noslash.2.2"
   dependencies:
     "@babel/runtime": ^7.7.6
-  checksum: c5e67204f9712b9f7398cdea963c85f8b2d5f8ff4c9f7246fb4507ba5a5961ad7aa80953305cfdd8ca8dff3bebba0a07a950f44cf1961ad32c609e455d972435
+  checksum: 535ffb11c797694be31fc414d968e853270c579918e4c03c420332b4bf879a1d2beb26b6dba2f7faa6e3a52541454ce21de321cc544a65364baaebd1195c98e6
   languageName: node
   linkType: hard
 
@@ -6185,7 +6185,7 @@ __metadata:
   resolution: "test-history-router@workspace:."
   dependencies:
     cross-env: ^7.0.3
-    history-noslash: latest
+    history-noslash: 5.2.0-noslash.2.2
     parcel: ^2.0.1
     react: 17.0.2
     react-dom: 17.0.2

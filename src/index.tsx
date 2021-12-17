@@ -6,10 +6,10 @@ const render = (id: string) => {
   const rootElement = document.getElementById(id);
   ReactDOM.render(
     <React.StrictMode>
-      <App/>
+      <App hashRoot="" />
     </React.StrictMode>,
-  rootElement
+    rootElement
   );
-}
+};
 
-render("index")
+render("index");

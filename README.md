@@ -42,7 +42,7 @@ This replaces a feature that `react-router-dom@6` lost in the upgrade from `hist
 
 Ultimately, I settled on maintaining the use-hash-history as a `Proxy` around `history@5`. It now works with `react-router-dom@6.1.1`, but I plan to maintain this project for longterm compatibility with React Router going forward.
 
-...for [more details](https://github.com/thejohnhoffer/test-history-router/blob/main/WHY.md).
+...for [more details][why].
 
 ## Contributing
 
@@ -70,3 +70,4 @@ You'll need to [install node](https://heynode.com/tutorial/install-nodejs-locall
 [proxy]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy#examples
 [sandbox]: https://codesandbox.io/s/use-hash-history-esl4q
 [npm]: https://www.npmjs.com/package/use-hash-history
+[why]: https://gist.github.com/thejohnhoffer/5cb3798684c815683195847c53cff4ab

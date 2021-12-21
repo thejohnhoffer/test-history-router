@@ -46,7 +46,8 @@ Ultimately, I settled on maintaining the use-hash-history as a `Proxy` around `h
 
 ## Contributing
 
-The custom `history-noslash` code lives on [a branch of a fork](https://github.com/thejohnhoffer/history/tree/publish-noslash) of `history@5.1.0`. That fork is the packaged version of [History PR # 911](https://github.com/remix-run/history/pull/911).
+The published copy lives at [use-hash-history](https://github.com/thejohnhoffer/use-hash-history/).
+Make any pull request against the main branch.
 
 ### Getting started
 

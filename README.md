@@ -36,7 +36,7 @@ The `HistoryRouter` allows the use of a custom `HashHistory` to store paths in t
 
 # ...Why?
 
-This template uses [a new package called `use-hash-history`][npm], which is a [`Proxy`][proxy] for `history` in `react-router-dom@6.1.1`. This can be done thanks to [an unstable version][6_1_1] of a `HistoryRouter` API.
+This template uses [a new package called `use-hash-history`][yarn], which is a [`Proxy`][proxy] for `history` in `react-router-dom@6.1.1`. This can be done thanks to [an unstable version][6_1_1] of a `HistoryRouter` API.
 
 This replaces a feature that `react-router-dom@6` lost in the upgrade from `history@4` to `history@5`. Basically, this restores the ability to have a `hash` in the URL of `#something` instead of `#/something`. First, @tannera [noticed the issue](https://github.com/remix-run/react-router/issues/7703) in Nov 2020. In Dec 2021, I [proposed](https://github.com/remix-run/react-router/issues/8459) the reintroduction of the feature, and made three attempts to add it: [1][1], [2][2], [3][3].
 
@@ -70,5 +70,5 @@ You'll need to [install node](https://heynode.com/tutorial/install-nodejs-locall
 [6_1_1]: https://github.com/remix-run/react-router/releases/tag/v6.1.1
 [proxy]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy#examples
 [sandbox]: https://codesandbox.io/s/use-hash-history-esl4q
-[npm]: https://www.npmjs.com/package/use-hash-history
+[yarn]: https://yarnpkg.com/package/use-hash-history
 [why]: https://gist.github.com/thejohnhoffer/5cb3798684c815683195847c53cff4ab

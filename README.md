@@ -7,7 +7,7 @@ This template tests the [new][6_1_1] `HistoryRouter` API of [`react-router-dom`]
 Besides [`react`](https://reactjs.org/) and [`vite`](https://vitejs.dev/), the main dependencies to install with [`pnpm`](https://pnpm.io/), `npm`, or `yarn` are:
 
 ```
-pnpm add use-hash-history@^1.1.0 react-router-dom@^6.2.1
+pnpm add use-hash-history@1.1 react-router-dom@6.2
 ```
 
 In `src/app.tsx`, you'll find the core of this template here:

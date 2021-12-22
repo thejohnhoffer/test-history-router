@@ -40,7 +40,7 @@ This template uses [a new package called `use-hash-history`][yarn], which is a [
 
 This replaces a feature that `react-router-dom@6` lost in the upgrade from `history@4` to `history@5`. Basically, this restores the ability to have a `hash` in the URL of `#something` instead of `#/something`. First, @tannera [noticed the issue](https://github.com/remix-run/react-router/issues/7703) in Nov 2020. In Dec 2021, I [proposed](https://github.com/remix-run/react-router/issues/8459) the reintroduction of the feature, and made three attempts to add it: [1][1], [2][2], [3][3].
 
-Ultimately, I settled on maintaining the use-hash-history as a `Proxy` around `history@5`. It now works with `react-router-dom@6.1.1`, but I plan to maintain this project for longterm compatibility with React Router going forward.
+Ultimately, I settled on maintaining the use-hash-history as a `Proxy` around `history@5`. It works with `react-router-dom@^6.1.1`, but I plan to maintain this project for longterm compatibility with React Router going forward. Ihe [v1.1.0 release](https://github.com/thejohnhoffer/use-hash-history/releases/tag/v1.1.0) would more easilyy allow [history PR #911](https://github.com/remix-run/history/pull/911) as a drop-in replacement for `hashRoot` if that feature were ever merged into `history`.
 
 ...for [more details][why].
 

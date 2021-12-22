@@ -23,11 +23,11 @@
     "./dist/index.d.ts"
   ],
   "dependencies": {
-    "history": "^5",
+    "history": "^5.2",
     "react": "^17",
     "react-dom": "^17",
-    "react-router-dom": "6.1.1",
-    "use-hash-history": "^1"
+    "react-router-dom": "^6.2",
+    "use-hash-history": "^1.1"
   },
   "devDependencies": {
     "@babel/core": "^7.16.5",
